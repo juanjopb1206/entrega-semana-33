@@ -1,0 +1,313 @@
+.fon{
+	position: absolute;
+	left: 350px;
+	top: 50px;
+}
+
+.div{
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 500px;
+	height: 300px;
+	background-color: #FF0000;
+	font-size: 20px;
+	font-family: harlow solid;
+	border-color: orange;
+	border-style: dashed;
+	border-width: 10px;
+}
+
+.techo{
+	position: absolute;
+	top: 230px;
+	left: 530px;
+	width: 50px;
+	height: 50px;
+	
+}
+
+.hada{
+	position: absolute;
+	top: 210px;
+	right: 560px;
+	width: 50px;
+	height: 50px;
+	
+}
+
+.hada1{
+	position: absolute;
+	top: 215px;
+	right: 560px;
+	width: 15px;
+	height: 15px;
+	background-color: yellow;
+	border-radius: 100px;
+	animation-name: hada;
+ 	animation-duration: 3600s;
+}
+
+@keyframes hada {
+  0% {top: 215px; right: 560px;}
+  0.02% {top: 175px; right: 460px;}
+  0.05% {top: 115px; right: 430px;}
+  0.07% {top: 100px; right: 530px;}
+  0.12% {top: 175px; right: 500px;}
+  0.15% {top: 115px; right: 450px;}
+  0.17% {top: 120px; right: 550px;}
+  0.2% {top: 30px; right: 350px;}
+}
+
+.techo1{
+	position: absolute;
+	top: 230px;
+	left: 530px;
+	width: 50px;
+	height: 36px;
+	animation-name: techo;
+ 	animation-duration: 3600s;
+}
+
+
+@keyframes techo {
+  0% {background-image: url(exp.png); background-size: cover;}
+  0.06% {background-image: url(mini1.png);}
+  0.09% {background-image: url(mini.png);}
+}
+
+.botonfin{
+	position: absolute;
+	width: 110px;
+	height: 70px;
+	bottom: 100px;
+	right: 100px;
+	background-color: #2EFEF7;
+	border-radius: 100px;
+	font-size: 60px;
+	font-family: harlow solid;
+}
+
+.botonin{
+	position: absolute;
+	width: 160px;
+	height: 70px;
+	bottom: 70px;
+	right: 190px;
+	background-color: #2EFEF7;
+	border-radius: 100px;
+	font-size: 60px;
+}
+
+.nada{
+	display: none;
+}
+
+.cor{
+	position: absolute;
+	background: url(cortina1.jpg);
+	background-size: contain;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 110px;
+	
+}
+
+.cor1{
+	position: absolute;
+	background: url(cortina.jpg);
+	background-size: cover;
+	top: 0px;
+	left: 0px;
+	width: 760px;
+	height: 100%;
+	
+}
+
+.cor2{
+	position: absolute;
+	background: url(cortina.jpg);
+	background-size: cover;
+	top: 0px;
+	right: 0px;
+	width: 860px;
+	height: 100%;
+	
+}
+
+.cor01{
+	position: absolute;
+	background: url(cortina.jpg);
+	background-size: cover;
+	top: 0px;
+	left: 0px;
+	width: 360px;
+	height: 100%;
+	animation-name: corts;
+ 	animation-duration: 3600s;
+	
+}
+
+.cor02{
+	position: absolute;
+	background: url(cortina.jpg);
+	background-size: cover;
+	top: 0px;
+	right: 0px;
+	width: 400px;
+	height: 100%;
+	animation-name: cortd;
+ 	animation-duration: 3600s;
+	
+}
+
+
+@keyframes corts {
+  0% {width: 360px;}
+  0.02% {width: 460px;}
+  0.05% {width: 560px;}
+  0.07% {width: 660px;}
+  0.09% {width: 760px;}
+}
+
+
+@keyframes cortd {
+  0% {width: 460px;}
+  0.02% {width: 560px;}
+  0.05% {width: 660px;}
+  0.07% {width: 760px;}
+  0.09% {width: 860px;}
+}
+
+.cor001{
+	position: absolute;
+	background: url(cortina.jpg);
+	background-size: cover;
+	top: 0px;
+	left: 0px;
+	width: 760px;
+	height: 100%;
+	animation-name: cortsa;
+ 	animation-duration: 3600s;
+	
+}
+
+.cor002{
+	position: absolute;
+	background: url(cortina.jpg);
+	background-size: cover;
+	top: 0px;
+	right: 0px;
+	width: 860px;
+	height: 100%;
+	animation-name: cortda;
+ 	animation-duration: 3600s;
+	
+}
+
+
+@keyframes cortsa {
+  0% {width: 760px;}
+  0.02% {width: 660px;}
+  0.05% {width: 560px;}
+  0.07% {width: 460px;}
+  0.09% {width: 360px;}
+}
+
+
+@keyframes cortda {
+  0% {width: 860px;}
+  0.02% {width: 760px;}
+  0.05% {width: 660px;}
+  0.07% {width: 560px;}
+  0.09% {width: 400px;}
+}
+
+
+.piso{
+	position: absolute;
+	background-color: #FFB202;
+	bottom: 0px;
+	left: 340;
+	width: 900px;
+	height: 200px;
+}
+
+.hongo{
+	position: absolute;
+	top: 350px;
+	left: 0px;
+	width: 100px;
+	height: 100px;
+	animation-name: he;
+ 	animation-duration: 3600s;
+}
+
+
+
+.hongo1{
+	position: absolute;
+	top: 350px;
+	left: 400px;
+	width: 100px;
+	height: 100px;
+  	animation-name: hongo;
+ 	animation-duration: 10s;
+}
+
+@keyframes hongo {
+  0% {height: 100px; left: 400px;}
+  25% {height: 150px;left: 500px;}
+  50% {height: 100px;left: 400px;}
+  75% {height: 150px;left: 600px;}
+}
+
+.gota{
+	position: absolute;
+	top: 340px;
+	right: 100px;
+	width: 100px;
+	height: 100px;
+	animation-name: ge;
+ 	animation-duration: 3600s;
+}
+
+.gota1{
+	position: absolute;
+	top: 340px;
+	right: 400px;
+	width: 100px;
+	height: 100px;
+  	animation-name: gota;
+ 	animation-duration: 5s;
+}
+
+@keyframes gota {
+  11% {height: 100px; }
+  22% {height: 75px; }
+  33% {height: 50px; }
+  44% {height: 25px; }
+  55% {height: 0px; }
+  66% {height: 25px; }
+  77% {height: 50px; }
+  88% {height: 75px; }
+  100% {height: 100px; }
+}
+
+@keyframes ge {
+  0% {right: 1;}
+  0.01% {right: 100px;}
+  0.02% {right: 200px;}
+  0.03% {right: 300px;}
+  0.2% {right: 400px;}
+}
+
+@keyframes he {
+  0% {right: 1;}
+  0.01% {left: 100px;}
+  0.02% {left: 200px;}
+  0.03% {left: 300px;}
+  0.2% {left: 400px;}
+
+
